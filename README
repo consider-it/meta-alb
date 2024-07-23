@@ -37,3 +37,9 @@ $ sudo dd if=<image-name>.sdcard of=/dev/sd<partition> bs=1M && sync
 To deploy only the rootfs to the target partition, run:
 $ sudo tar -xzf <image-name>.tar.gz -C <destination>
 where <destination> is the destination partition (as mounted on the host).
+
+Consider-it contribution
+------------------------
+As part of the Water Drone Rescue project, the consider-it innovation department has been working on adding support for the Legacy Board ls2080abluebox with ROS2 support.
+
+The work that has been done specifically targets the root file system. There is no guarantee that the uboot binairy will be fully compatible with the ls2080abluebox.

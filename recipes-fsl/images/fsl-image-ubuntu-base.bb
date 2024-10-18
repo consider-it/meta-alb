@@ -62,7 +62,9 @@ APTGET_EXTRA_SOURCE_PACKAGES += "\
 USER_SHELL_BASH = "/bin/bash"
 USER_PASSWD_BLUEBOX = "SNSRrmx0usMiI"
 APTGET_ADD_USERS = "bluebox:${USER_PASSWD_BLUEBOX}:${USER_SHELL_BASH}"
-
+EXTRA_USERS_PARAMS += "\
+ usermod -aG sudo bluebox; \
+"
 HOST_NAME = "ubuntu-${MACHINE_ARCH}"
 
 ##############################################################################

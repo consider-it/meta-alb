@@ -15,6 +15,7 @@ REGLEX:ls2088a = "ls2088a"
 REGLEX:ls1088a = "ls1088a"
 REGLEX:lx2160a = "lx216xa"
 REGLEX:lx2162a = "lx216xa"
+REGLEX:ls2080a = "ls2080a"
 
 do_install () {
     install -d ${D}/boot
